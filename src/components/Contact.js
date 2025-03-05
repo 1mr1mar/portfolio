@@ -51,7 +51,7 @@ const Contact = ({ darkMode }) => {
               <div className="flex space-x-4">
                 <a href="https://github.com/1mr1mar" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/ganbour-marwan-352944352/" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.facebook.com/share/1BF4U1cV5y/" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-facebook-square'></i></a>
                 <a href="https://www.reddit.com/" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-reddit' ></i></a>
               </div>
             </div>

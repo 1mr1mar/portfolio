@@ -67,7 +67,7 @@ const Projects = ({ darkMode }) => {
                     Live Demo
                   </a>
                   <a 
-                    href="#" 
+                    href="https://github.com/1mr1mar/e-commers-Html-css-js.git" 
                     className={`px-4 py-2 rounded-lg text-sm border ${darkMode ? 'border-gray-600' : 'border-gray-300'}`}
                   >
                     Code
@@ -80,7 +80,7 @@ const Projects = ({ darkMode }) => {
         
         <div className="text-center mt-12">
           <a 
-            href="#" 
+            href="https://github.com/1mr1mar" 
             className={`inline-block px-6 py-3 rounded-lg ${darkMode ? 'bg-gray-700' : 'bg-white'} font-medium transition-transform hover:scale-105`}
           >
             View All Projects

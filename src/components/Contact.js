@@ -28,8 +28,12 @@ const Contact = ({ darkMode }) => {
               <div className="flex items-start">
                 <div className="mt-1 mr-3 text-blue-500">📧</div>
                 <div>
-                  <h4 className="font-bold">Email</h4>
-                  <p>ganbourmarwan9@gmail.com</p>
+                <a
+                    href="mailto:ganbourmarwan9@gmail.com"
+                    className="text-blue-500 hover:underline"
+                  >
+                    ganbourmarwan9@gmail.com
+                  </a>
                 </div>
               </div>
               
@@ -45,10 +49,10 @@ const Contact = ({ darkMode }) => {
             <div className="mt-8">
               <h4 className="font-bold mb-3">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-github'></i></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/1mr1mar" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ganbour-marwan-352944352/" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="#" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-facebook-square'></i></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-reddit' ></i></a>
+                <a href="https://www.reddit.com/" className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center transition-transform hover:scale-110"><i class='bx bxl-reddit' ></i></a>
               </div>
             </div>
           </div>

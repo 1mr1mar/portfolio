@@ -1,16 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className={`fixed w-full z-10 transition-colors duration-300 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-md`}>
+    <nav className={`fixed w-full z-10 transition-all duration-300 
+      ${darkMode ? 'bg-gray-800' : 'bg-white'} 
+      ${isScrolled ? 'shadow-lg bg-opacity-90 backdrop-blur-md' : 'shadow-md'}`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="text-2xl font-bold">
             <span className="text-blue-500">Mar</span>Portfolio
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-6">
             {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
@@ -29,7 +47,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
               {darkMode ? '🌞' : '🌙'}
             </button>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button 
@@ -40,7 +58,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
             </button>
           </div>
         </div>
-        
+
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">

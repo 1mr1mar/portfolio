@@ -1,12 +1,12 @@
 module.exports = {
     plugins: [
-      require('tailwindcss'),  // لا تستخدم @tailwindcss/postcss هنا
+      require('tailwindcss'), 
       require('autoprefixer'),
     ],
   }
 module.exports = {
     plugins: {
-      tailwindcss: {}, // تأكد من أنه بهذا الشكل
+      tailwindcss: {},
       autoprefixer: {},
     },
   };
@@ -14,7 +14,7 @@ module.exports = {
 
   module.exports = {
     plugins: {
-      tailwindcss: {}, // تأكد من أن هذا السطر موجود
+      tailwindcss: {}, 
       autoprefixer: {},
     },
   };

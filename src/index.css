@@ -27,3 +27,14 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.8s ease-out;
 }
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-in-visible {
+  opacity: 1;
+  transform: translateX(0);
+}

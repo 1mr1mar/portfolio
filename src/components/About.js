@@ -3,7 +3,7 @@ import profileImage from "../pic/profil.jpg";
 
 const About = ({ darkMode }) => {
   return (
-    <section id="about" className="py-16 px-4">
+    <section id="about overflow-hidden" className="py-16 px-4">
       <div className="container mx-auto">
         <h2
           className={`text-3xl font-bold mb-12 text-center ${
@@ -57,30 +57,30 @@ const About = ({ darkMode }) => {
             </p>
 
             <div
-              className={`grid grid-cols-2 gap-4 mb-6 ${
+              className={`grid md:grid-cols-2 grid-cols-1 mb-6 gap-4${
                 darkMode ? "text-gray-300" : "text-gray-900"
               }`}
             >
-              <div>
-                <h4 className="font-semibold">👤 Name:</h4>
+              <div className="mb-2">
+                <h4 className="font-semibold ">👤 Name:</h4>
                 <p>Marwan Ganbour</p>
               </div>
-              <div>
-                <h4 className="font-semibold">📧 Email:</h4>
+              <div className="mb-2">
+                <h4 className="font-semibold ">📧 Email:</h4>
                 <p>
                   <a
                     href="mailto:ganbourmarwan9@gmail.com"
-                    className="text-blue-500 hover:underline"
+                    className="text-blue-500 hover:underline "
                   >
                     ganbourmarwan9@gmail.com
                   </a>
                 </p>
               </div>
-              <div>
+              <div className="mb-2">
                 <h4 className="font-semibold">📍 Based in:</h4>
                 <p>Ksar El Kebir, Morocco</p>
               </div>
-              <div>
+              <div className="mb-2">
                 <h4 className="font-semibold">💼 Freelance:</h4>
                 <p className="text-green-500 font-semibold">Available ✅</p>
               </div>

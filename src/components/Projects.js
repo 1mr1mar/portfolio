@@ -61,13 +61,13 @@ const Projects = ({ darkMode }) => {
                 </div>
                 <div className="flex space-x-3">
                   <a 
-                    href="https://github.com/1mr1mar" 
+                    href="https://chipper-clafoutis-944b48.netlify.app/" 
                     className="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm"
                   >
                     Live Demo
                   </a>
                   <a 
-                    href="https://chipper-clafoutis-944b48.netlify.app/" 
+                    href="https://github.com/1mr1mar" 
                     className={`px-4 py-2 rounded-lg text-sm border ${darkMode ? 'border-gray-600' : 'border-gray-300'}`}
                   >
                     Code

@@ -67,7 +67,7 @@ const Projects = ({ darkMode }) => {
                     Live Demo
                   </a>
                   <a 
-                    href="https://github.com/1mr1mar/e-commers-Html-css-js.git" 
+                    href="https://chipper-clafoutis-944b48.netlify.app/" 
                     className={`px-4 py-2 rounded-lg text-sm border ${darkMode ? 'border-gray-600' : 'border-gray-300'}`}
                   >
                     Code

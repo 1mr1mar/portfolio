@@ -10,7 +10,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection }) => {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
-      }
+      } 
     };
 
     window.addEventListener("scroll", handleScroll);

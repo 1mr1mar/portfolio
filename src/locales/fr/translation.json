@@ -1,0 +1,111 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "projects": "Projets",
+  "skills": "Compétences",
+  "contact": "Contact",
+  "dark_mode": "Passer en mode sombre 🌙",
+  "light_mode": "Passer en mode clair 🌞",
+  "hero": {
+    "greeting": "Salut, je suis Marwan",
+    "title": "Développeur Frontend",
+    "description": "Je crée des applications web réactives et interactives avec des technologies modernes.",
+    "contact_button": "Contactez-moi",
+    "projects_button": "Voir les projets"
+    },
+    "about1": {
+    "title": "À propos de moi",
+    "subtitle": "Développeur Frontend & Designer UI",
+    "description1": "Avec plus de 2 ans d'expérience dans la création d'applications web modernes, je me spécialise dans la création d'interfaces utilisateur réactives, accessibles et performantes.",
+    "description2": "Je suis passionné par le code propre, l'expérience utilisateur et le fait de rester à jour avec les dernières technologies web.",
+    "name": "Marwan Ganbour",
+    "email": "ganbourmarwan9@gmail.com",
+    "location": "Ksar El Kebir, Maroc",
+    "freelance": "Disponible ✅",
+    "download_resume": "📄 Télécharger le CV"
+  },
+  "projectss": {
+    "title": "Mes Projets",
+    "project1": {
+      "title": "Site Web E-Commerce",
+      "description": "Une boutique en ligne complète avec panier et intégration de paiement.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "live_demo": "Démo en direct",
+      "code": "Code"
+    },
+    "project2": {
+      "title": "Site Web E-Commerce",
+      "description": "Une boutique en ligne complète avec panier et intégration de paiement.",
+      "tags": ["React", "CSS", "JavaScript"],
+      "live_demo": "Démo en direct",
+      "code": "Code"
+    },
+    "project3": {
+      "title": "Mon Portfolio",
+      "description": "Tout ce que vous voulez savoir sur moi se trouve ici.",
+      "tags": ["React", "Tailwind CSS", "Node.js"],
+      "live_demo": "Démo en direct",
+      "code": "Code"
+    },
+    "view_all": "Voir Tous les Projets"
+  },
+  "skillss": {
+    "title": "Mes Compétences",
+    "skill1": "React",
+    "skill2": "JavaScript",
+    "skill3": "HTML/CSS",
+    "skill4": "Node.js",
+    "skill5": "TypeScript",
+    "skill6": "Design UI/UX",
+    "skill7": "JAVA",
+    "skill8": "C, C++",
+    "skill9": "C#"
+  },
+  "experience": {
+    "title": "Expérience",
+    "job1": {
+      "title": "Développeur Frontend Avancé",
+      "duration": "2023 - Présent",
+      "place": "Freelance"
+    },
+    "job2": {
+      "title": "Développeur UI",
+      "duration": "2023 - Présent",
+      "place": "Freelance"
+    }
+  },
+  "education": {
+    "title": "Éducation",
+    "degree": {
+      "title": "Licence en Informatique",
+      "duration": "2023 - 2025",
+      "place": "MIAGE Ksar El Kebir"
+    }
+  },
+  "contactt": {
+    "title": "Contactez-nous",
+    "contactInfoTitle": "Informations de contact",
+    "contactMessage": "N'hésitez pas à me contacter pour des collaborations ou simplement un salut amical!",
+    "location": {
+      "title": "Emplacement",
+      "address": "Ksar El Kebir, Maroc"
+    },
+    "email": {
+      "title": "E-mail",
+      "address": "ganbourmarwan9@gmail.com"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "number": "+212 696517130"
+    },
+    "followMe": "Suivez-moi",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "sendMessage": "Envoyer le message"
+    }
+  }
+  }
+  

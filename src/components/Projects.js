@@ -1,29 +1,40 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import projectimg1 from'../pic/project1.png';
+import projectimg2 from'../pic/project2.jpg';
+import projectimg3 from'../pic/project3.png';
 
 const Projects = ({ darkMode }) => {
-  // Projects data
+  const { t } = useTranslation();
+
+
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
-      description: "A full-featured online store with shopping cart and payment integration.",
-      tags: ["Html", "CSS", "java-script"],
-      image:projectimg1,
+      title: t("projectss.project1.title"),
+      description: t("projectss.project1.description"),
+      tags: ["HTML", "CSS", "JavaScript"],
+      image: projectimg1,
+      dimo: "https://chipper-clafoutis-944b48.netlify.app/",
+      code: "https://github.com/1mr1mar/e-commers-Html-css-js",
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A productivity app for organizing tasks and tracking progress.",
-      tags: ["React", "Redux", "Firebase"],
-      image: "/api/placeholder/400/300",
+      title: t("projectss.project2.title"),
+      description: t("projectss.project2.description"),
+      tags: ["React", "CSS", "JavaScript"],
+      image: projectimg2,
+      dimo: "https://github.com/1mr1mar/E-commers-website-React",
+      code: "https://github.com/1mr1mar/E-commers-website-React",
     },
     {
       id: 3,
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media performance tracking.",
-      tags: ["React", "Chart.js", "REST API"],
-      image: "/api/placeholder/400/300",
+      title: t("projectss.project3.title"),
+      description: t("projectss.project3.description"),
+      tags: ["React", "Tailwind CSS", "Node.js"],
+      image: projectimg3,
+      dimo: "https://marwan-ganbour.netlify.app/",
+      code: "https://github.com/1mr1mar/portfolio",
     }
   ];
 
@@ -33,7 +44,7 @@ const Projects = ({ darkMode }) => {
       className={`py-16 px-4 ${darkMode ? 'bg-gray-800' : 'bg-gray-100'}`}
     >
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center">My Projects</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">{t("projects.title")}</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
@@ -61,16 +72,16 @@ const Projects = ({ darkMode }) => {
                 </div>
                 <div className="flex space-x-3">
                   <a 
-                    href="https://chipper-clafoutis-944b48.netlify.app/" 
+                    href={project.dimo}
                     className="px-4 py-2 rounded-lg bg-blue-500 text-white text-sm"
                   >
-                    Live Demo
+                    {t("projectss.project1.live_demo")} 
                   </a>
                   <a 
-                    href="https://github.com/1mr1mar" 
+                    href={project.code} 
                     className={`px-4 py-2 rounded-lg text-sm border ${darkMode ? 'border-gray-600' : 'border-gray-300'}`}
                   >
-                    Code
+                    {t("projectss.project1.code")} 
                   </a>
                 </div>
               </div>
@@ -83,7 +94,7 @@ const Projects = ({ darkMode }) => {
             href="https://github.com/1mr1mar" 
             className={`inline-block px-6 py-3 rounded-lg ${darkMode ? 'bg-gray-700' : 'bg-white'} font-medium transition-transform hover:scale-105`}
           >
-            View All Projects
+            {t("projectss.view_all")}
           </a>
         </div>
       </div>

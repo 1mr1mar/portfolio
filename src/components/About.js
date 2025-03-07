@@ -1,16 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next"; 
 import profileImage from "../pic/profil.jpg";
 
 const About = ({ darkMode }) => {
+  const { t } = useTranslation(); 
+
   return (
-    <section id="about overflow-hidden" className="py-16 px-4">
+    <section id="about" className="py-16 px-4">
       <div className="container mx-auto">
         <h2
           className={`text-3xl font-bold mb-12 text-center ${
             darkMode ? "text-white" : "text-gray-900"
           }`}
         >
-          About Me
+          {t("about1.title")}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -36,53 +39,50 @@ const About = ({ darkMode }) => {
                 darkMode ? "text-white" : "text-gray-900"
               }`}
             >
-              Frontend Developer & UI Designer
+              {t("about1.subtitle")} 
             </h3>
             <p
               className={`mb-4 text-lg ${
                 darkMode ? "text-gray-300" : "text-gray-700"
               }`}
             >
-              With 2+ years of experience building modern web applications, I
-              specialize in creating responsive, accessible, and performant user
-              interfaces.
+              {t("about1.description1")} 
             </p>
             <p
               className={`mb-6 text-lg ${
                 darkMode ? "text-gray-300" : "text-gray-700"
               }`}
             >
-              I'm passionate about clean code, user experience, and staying
-              updated with the latest web technologies.
+              {t("about1.description2")} 
             </p>
 
             <div
-              className={`grid md:grid-cols-2 grid-cols-1 mb-6 gap-4${
+              className={`grid md:grid-cols-2 grid-cols-1 mb-6 gap-4 ${
                 darkMode ? "text-gray-300" : "text-gray-900"
               }`}
             >
               <div className="mb-2">
-                <h4 className="font-semibold ">👤 Name:</h4>
-                <p>Marwan Ganbour</p>
+                <h4 className="font-semibold">👤 {t("about.name")}:</h4>
+                <p>{t("about1.name")}</p>
               </div>
               <div className="mb-2">
-                <h4 className="font-semibold ">📧 Email:</h4>
+                <h4 className="font-semibold">📧 Email:</h4>
                 <p>
                   <a
-                    href="mailto:ganbourmarwan9@gmail.com"
-                    className="text-blue-500 hover:underline "
+                    href={`mailto:${t("about.email")}`}
+                    className="text-blue-500 hover:underline"
                   >
-                    ganbourmarwan9@gmail.com
+                    {t("about1.email")}
                   </a>
                 </p>
               </div>
               <div className="mb-2">
-                <h4 className="font-semibold">📍 Based in:</h4>
-                <p>Ksar El Kebir, Morocco</p>
+                <h4 className="font-semibold">📍 {t("about.location")}:</h4>
+                <p>{t("about1.location")}</p> 
               </div>
               <div className="mb-2">
-                <h4 className="font-semibold">💼 Freelance:</h4>
-                <p className="text-green-500 font-semibold">Available ✅</p>
+                <h4 className="font-semibold">💼 {t("about.freelance")}:</h4>
+                <p className="text-green-500 font-semibold">{t("about.freelance")}</p> 
               </div>
             </div>
 
@@ -90,7 +90,7 @@ const About = ({ darkMode }) => {
               href="https://www.youtube.com/watch?v=0VAAS9xnS5U&list=RD0VAAS9xnS5U&start_radio=1"
               className="inline-block px-6 py-3 rounded-lg bg-blue-500 text-white font-medium transition-transform hover:scale-110 hover:shadow-lg"
             >
-              📄 Download Resume
+              {t("about1.download_resume")}
             </a>
           </div>
         </div>

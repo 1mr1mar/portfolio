@@ -1,0 +1,114 @@
+{
+  "Navbar":{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Skills",
+  "contact": "Contact",
+  "dark_mode": "Switch to Dark Mode 🌙",
+  "light_mode": "Switch to Light Mode 🌞"
+  }
+  ,
+  "hero": {
+    "greeting": "Hi, I'm Marwan",
+    "title": "Frontend Developer",
+    "description": "I build responsive and interactive web applications with modern technologies.",
+    "contact_button": "Contact Me",
+    "projects_button": "View Projects"
+  },
+  "about1": {
+    "title": "About Me",
+    "subtitle": "Frontend Developer & UI Designer",
+    "description1": "With 2+ years of experience building modern web applications, I specialize in creating responsive, accessible, and performant user interfaces.",
+    "description2": "I'm passionate about clean code, user experience, and staying updated with the latest web technologies.",
+    "name": "Marwan Ganbour",
+    "email": "ganbourmarwan9@gmail.com",
+    "location": "Ksar El Kebir, Morocco",
+    "freelance": "Available ✅",
+    "download_resume": "📄 Download Resume"
+  },
+  "projectss": {
+    "title": "My Projects",
+    "project1": {
+      "title": "E-Commerce Website",
+      "description": "A full-featured online store with shopping cart and payment integration.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "live_demo": "Live Demo",
+      "code": "Code"
+    },
+    "project2": {
+      "title": "E-Commerce Website",
+      "description": "A full-featured online store with shopping cart and payment integration.",
+      "tags": ["React", "CSS", "JavaScript"],
+      "live_demo": "Live Demo",
+      "code": "Code"
+    },
+    "project3": {
+      "title": "My Portfolio",
+      "description": "Anything you might want to know about me you'll find here.",
+      "tags": ["React", "Tailwind CSS", "Node.js"],
+      "live_demo": "Live Demo",
+      "code": "Code"
+    },
+    "view_all": "View All Projects"
+  },
+  "skillss": {
+    "title": "My Skills",
+    "skill1": "React",
+    "skill2": "JavaScript",
+    "skill3": "HTML/CSS",
+    "skill4": "Node.js",
+    "skill5": "TypeScript",
+    "skill6": "UI/UX Design",
+    "skill7": "JAVA",
+    "skill8": "C, C++",
+    "skill9": "C#"
+  },
+  "experience": {
+    "title": "Experience",
+    "job1": {
+      "title": "Advanced Frontend Developer",
+      "duration": "2023 - Present",
+      "place": "Freelance"
+    },
+    "job2": {
+      "title": "UI Developer",
+      "duration": "2023 - Present",
+      "place": "Freelance"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": {
+      "title": "Bachelor's in Computer Science",
+      "duration": "2023 - 2025",
+      "place": "MIAGE Ksar El Kebir"
+    }
+  },
+  "contactt": {
+    "title": "Get In Touch",
+    "contactInfoTitle": "Contact Info",
+    "contactMessage": "Feel free to reach out for collaborations or just a friendly hello!",
+    "location": {
+      "title": "Location",
+      "address": "Ksar El Kebir, Morocco"
+    },
+    "email": {
+      "title": "Email",
+      "address": "ganbourmarwan9@gmail.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "number": "+212 696517130"
+    },
+    "followMe": "Follow Me",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "sendMessage": "Send Message"
+    }
+  }
+}
+
